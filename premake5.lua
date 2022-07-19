@@ -55,7 +55,7 @@ project "Testing"
 	cppdialect(cpp_dialect)
 
 	files { "%{prj.name}/Src/**" }
-	includedirs { "$(ProjectDir)Src/", "Parrot/Src/"}
+	includedirs { "$(ProjectDir)Src/", project_name.. "/Src/"}
 	links { project_name }
 
 	ignoredefaultlibraries { "LIBCMTD" }
