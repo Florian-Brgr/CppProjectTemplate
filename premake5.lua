@@ -13,7 +13,7 @@ cpp_dialect = "C++20"
 workspace(project_name)
 	architecture "x64"
 	configurations { "Debug", "Optimized", "Dist" }
-	startproject "Test"
+	startproject "Testing"
 
 -- main project
 project(project_name)
